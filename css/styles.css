@@ -96,6 +96,7 @@ body {
     margin-right: 20%;
     padding: 15px;
     width: 60%;
+    min-height: 70vh;
 }
 #article:after{
     clear:both;
