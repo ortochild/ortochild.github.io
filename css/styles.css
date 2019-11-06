@@ -24,11 +24,13 @@ body {
     font-weight: bold;
     padding: 30px 30px 30px 10px;
     clear: both;
+    text-shadow: 2px 2px 2px #ACACAC;
 }
 #nav {
     background-color: #eee;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    text-shadow: 2px 2px 2px #ACACAC;
 }
 #nav li {
     float: left;
