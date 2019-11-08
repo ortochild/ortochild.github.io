@@ -11,12 +11,14 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
 }
 body {
     font-family: McLaren, Arial, sans-serif;    
-    background-color: #f7f7f7;
     padding-left: 100px;
     padding-right: 100px;
-    background: -moz-linear-gradient(left, #ABF6C7 0%, #CEFFEC 53%, #B5E6F6 100%);
-    background: -webkit-linear-gradient(left, #ABF6C7 0%, #CEFFEC 53%, #B5E6F6 100%);
-    background: linear-gradient(to right, #ABF6C7 0%, #CEFFEC 53%, #B5E6F6 100%);
+    background-color: #026873;
+background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+background-size: 13px, 29px, 37px, 53px;
 }
 #header{ 
     background-color: #f4f4f4;
